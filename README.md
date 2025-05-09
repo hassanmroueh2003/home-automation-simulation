@@ -61,7 +61,8 @@ Download and place the following file in the root directory:
 * `shape_predictor_68_face_landmarks.dat`
   → Used by `eyes2.py` for facial landmark detection.
 
-[📥 Download shape\_predictor\_68\_face\_landmarks.dat](https://github.com/AKSHAYUBHAT/TensorFace/blob/master/openface/models/dlib/shape_predictor_68_face_landmarks.dat?raw=true)
+[📥 Download shape\_predictor\_68\_face\_landmarks.dat]
+(https://www.kaggle.com/datasets/sergiovirahonda/shape-predictor-68-face-landmarksdat)
 
 ---
 
