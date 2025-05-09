@@ -33,7 +33,7 @@ Run the main script to start the interface:
 
 ```bash
 python main.py
-You'll be prompted to log in using face recognition. After authentication, use:
+## You'll be prompted to log in using face recognition. After authentication, use:
 
 E for eye tracking
 
@@ -43,7 +43,7 @@ V for voice commands
 
 X to exit
 
-Dependencies
+## Dependencies
 Install Required Python Packages
 bash
 Copy
@@ -52,17 +52,18 @@ pip install opencv-python dlib face_recognition mediapipe SpeechRecognition nump
 Download Required Model File
 Download and place the following file in the root directory:
 
-shape_predictor_68_face_landmarks.dat
-→ Used by eyes2.py for facial landmark detection.
+### shape_predictor_68_face_landmarks.dat 
+→ Used by eyes2.py for facial landmark detection. (To run `eyes2.py`, download the Dlib facial landmark model manually:
+- [Download shape_predictor_68_face_landmarks.dat (direct link)](https://github.com/AKSHAYUBHAT/TensorFace/blob/master/openface/models/dlib/shape_predictor_68_face_landmarks.dat?raw=true))
 
-Face Recognition Setup
+### Face Recognition Setup
 Create an images/ folder
 
 Inside it, create a subfolder named after the user (e.g., images/hassan/)
 
 Add a JPEG image of the user inside that folder (e.g., hassan.jpeg)
 
-Note
+## Note
 This repository contains the simulation version of the system. For full deployment on a Raspberry Pi:
 
 Replace OpenCV camera functions with picamera2
@@ -75,5 +76,5 @@ LEDs (visual feedback)
 
 Servo motor (curtain control)
 
-License
+## License
 This project is intended for educational and demonstrational purposes only.
