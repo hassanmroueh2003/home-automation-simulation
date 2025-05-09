@@ -103,9 +103,10 @@ This project was developed as a final-year capstone under the supervision of Dr.
 
 📖 [Read the full article on the University of Balamand website](https://www.balamand.edu.lb/faculties/FOE/About/Pages/Details.aspx?FilterField1=ID&FilterValue1=542)
 ---
-## 📄 License
+## 📄 License 
 
 This project is intended for **educational and demonstrational purposes only**.
+
 ---
 ## Contribution of Individual Authors to the Project
 
