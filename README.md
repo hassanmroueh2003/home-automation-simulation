@@ -1,80 +1,100 @@
 # Home Automation Simulation
 
-Multimodal home automation simulation using Python, integrating face recognition, eye tracking, hand gestures, and voice recognition for assistive control.
+**Multimodal home automation simulation using Python**, integrating face recognition, eye tracking, hand gestures, and voice recognition for assistive control.
 
-## Overview
+---
+
+## 🧩 Overview
 
 This project is a Python-based simulation of a multimodal home automation system developed to support individuals with disabilities or elderly users. The system allows control of home appliances using:
 
-- 👁️ **Eye tracking** (blink and gaze direction)
-- ✋ **Hand gestures** (via MediaPipe)
-- 🎤 **Voice commands** (via SpeechRecognition and Google API)
-- 🧑 **Face recognition** (for user authentication)
+* 👁️ **Eye tracking** (blink and gaze direction)
+* ✋ **Hand gestures** (via MediaPipe)
+* 🎤 **Voice commands** (via SpeechRecognition and Google API)
+* 🧑 **Face recognition** (for user authentication)
 
-The system was originally tested on a laptop and later optimized for deployment on a Raspberry Pi with GPIO and PiCamera2.
-
----
-
-## Technologies Used
-
-- Python 3.x  
-- OpenCV  
-- dlib  
-- face_recognition  
-- MediaPipe  
-- SpeechRecognition  
-- Raspberry Pi (for hardware version)
+The system was originally tested on a laptop and later optimized for deployment on a Raspberry Pi using GPIO and PiCamera2.
 
 ---
 
-## Usage
+## ⚙️ Technologies Used
 
-Run the main script to start the interface:
+* Python 3.x
+* OpenCV
+* dlib
+* face\_recognition
+* MediaPipe
+* SpeechRecognition
+* Raspberry Pi (for hardware deployment)
+
+---
+
+## 🚀 Usage
+
+To start the system, run the main script:
 
 ```bash
 python main.py
-## You'll be prompted to log in using face recognition. After authentication, use:
+```
 
-E for eye tracking
+You’ll be prompted to log in using face recognition. After authentication, use the following keys:
 
-H for hand gestures
+* `E` → Eye tracking
+* `H` → Hand gestures
+* `V` → Voice commands
+* `X` → Exit the program
 
-V for voice commands
+---
 
-X to exit
+## 📦 Dependencies
 
-## Dependencies
-Install Required Python Packages
-bash
-Copy
-Edit
+### Install Required Python Packages
+
+```bash
 pip install opencv-python dlib face_recognition mediapipe SpeechRecognition numpy
-Download Required Model File
+```
+
+### Download Required Model File
+
 Download and place the following file in the root directory:
 
-### shape_predictor_68_face_landmarks.dat 
-→ Used by eyes2.py for facial landmark detection. (To run `eyes2.py`, download the Dlib facial landmark model manually:
-- [Download shape_predictor_68_face_landmarks.dat (direct link)](https://github.com/AKSHAYUBHAT/TensorFace/blob/master/openface/models/dlib/shape_predictor_68_face_landmarks.dat?raw=true))
+* `shape_predictor_68_face_landmarks.dat`
+  → Used by `eyes2.py` for facial landmark detection.
 
-### Face Recognition Setup
-Create an images/ folder
+[📥 Download shape\_predictor\_68\_face\_landmarks.dat](https://github.com/AKSHAYUBHAT/TensorFace/blob/master/openface/models/dlib/shape_predictor_68_face_landmarks.dat?raw=true)
 
-Inside it, create a subfolder named after the user (e.g., images/hassan/)
+---
 
-Add a JPEG image of the user inside that folder (e.g., hassan.jpeg)
+## 🧑‍🦰 Face Recognition Setup
 
-## Note
-This repository contains the simulation version of the system. For full deployment on a Raspberry Pi:
+1. Create a folder named `images/`
+2. Inside it, create a subfolder named after the user, e.g.:
 
-Replace OpenCV camera functions with picamera2
+   ```
+   images/hassan/
+   ```
+3. Add a JPEG image of the user inside that folder:
 
-Integrate GPIO logic for:
+   ```
+   images/hassan/hassan.jpeg
+   ```
 
-Relays (fan, light)
+---
 
-LEDs (visual feedback)
+## 📝 Notes
 
-Servo motor (curtain control)
+This repository contains a **simulation version** of the system. For **Raspberry Pi deployment**:
 
-## License
-This project is intended for educational and demonstrational purposes only.
+* Replace OpenCV camera functions with **PiCamera2**
+* Integrate **GPIO logic** for:
+
+  * Relays (e.g., fan, light)
+  * LEDs (visual feedback)
+  * Servo motors (e.g., curtain control)
+
+---
+
+## 📄 License
+
+This project is intended for **educational and demonstrational purposes only**.
+
