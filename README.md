@@ -61,19 +61,20 @@ Download and place the following file in the root directory:
 * `shape_predictor_68_face_landmarks.dat`
   → Used by `eyes2.py` for facial landmark detection.
 
-[📥 Download shape\_predictor\_68\_face\_landmarks.dat]
-(https://www.kaggle.com/datasets/sergiovirahonda/shape-predictor-68-face-landmarksdat)
+📥 [Download shape\_predictor\_68\_face\_landmarks.dat](https://www.kaggle.com/datasets/sergiovirahonda/shape-predictor-68-face-landmarksdat)
 
 ---
 
 ## 🧑‍🦰 Face Recognition Setup
 
 1. Create a folder named `images/`
+
 2. Inside it, create a subfolder named after the user, e.g.:
 
    ```
    images/hassan/
    ```
+
 3. Add a JPEG image of the user inside that folder:
 
    ```
@@ -98,4 +99,3 @@ This repository contains a **simulation version** of the system. For **Raspberry
 ## 📄 License
 
 This project is intended for **educational and demonstrational purposes only**.
-
