@@ -95,7 +95,14 @@ This repository contains a **simulation version** of the system. For **Raspberry
   * Servo motors (e.g., curtain control)
 
 ---
+## 🏫 Institutional Recognition
 
+This project was developed as a final-year capstone under the supervision of Dr. Moustapha El Hassan at the **Faculty of Engineering, University of Balamand**. It is officially featured by the university as an example of interdisciplinary innovation in assistive technologies:
+
+> *"A team of four talented engineering students from the Faculty of Engineering at the University of Balamand has developed an innovative project titled 'Body Gesture Controlled Home Automation,' aimed at enhancing the independence and inclusion of elderly individuals and people with disabilities."*
+
+📖 [Read the full article on the University of Balamand website](https://www.balamand.edu.lb/faculties/FOE/About/Pages/Details.aspx?FilterField1=ID&FilterValue1=542)
+---
 ## 📄 License
 
 This project is intended for **educational and demonstrational purposes only**.
