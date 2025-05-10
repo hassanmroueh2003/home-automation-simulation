@@ -33,7 +33,7 @@ try:
             y1, x2, y2, x1 = face_loc[0], face_loc[1], face_loc[2], face_loc[3]
             cv2.putText(frame, name, (x1, y1 - 10), cv2.FONT_HERSHEY_DUPLEX, 1, (0, 0, 200), 2)
             cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 200), 4)
-            if name == "hassan-face":
+            if name == "takla":
                 user_input = input("Enter a character: ")
                 if user_input.upper() in ['E', 'H', 'V']:
                     break
@@ -160,11 +160,11 @@ try:
         cv2.destroyAllWindows()
 
     elif user_input.upper() == 'E':
-        import eyesfinal #that was replaced by a library for the voice detection using object oreinted programming
+        import eyesfinal
 
 
     elif user_input.upper() == 'V':
-        import voicefinal #that was replaced by a library for the voice detection using object oreinted programming
+        import voicefinal
 except Exception as e:
     print("An errpicam2.stop()or occurred:", e)
     # Clean up resources if necessary
