@@ -15,13 +15,16 @@ GPIO.setup(led_pin_1, GPIO.OUT)
 GPIO.setup(led_pin_2, GPIO.OUT)
 GPIO.setup(led_pin_3, GPIO.OUT)
 
+
 # Function to turn LED on
 def turn_on_led(pin):
     GPIO.output(pin, GPIO.HIGH)
 
+
 # Function to turn LED off
 def turn_off_led(pin):
     GPIO.output(pin, GPIO.LOW)
+
 
 # Function to record audio and convert speech to text
 def speech_to_text():
@@ -41,6 +44,7 @@ def speech_to_text():
     except sr.RequestError as e:
         print("Error occurred; {0}".format(e))
         return ""
+
 
 # Initialize recognizer
 recognizer = sr.Recognizer()
