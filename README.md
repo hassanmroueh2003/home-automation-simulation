@@ -93,7 +93,8 @@ This repository contains a **simulation version** of the system. For **Raspberry
   * Relays (e.g., fan, light)
   * LEDs (visual feedback)
   * Servo motors (e.g., curtain control)
-🔧 Legacy code from the early hardware integration phase can be found in the `hardware_transition/` folder. These scripts provide insight into the evolution of the system before final optimization.
+  
+###🔧 Legacy code from the early hardware integration phase can be found in the `hardware_transition/` folder. These scripts provide insight into the evolution of the system before final optimization.
 
 During development, we initially structured each control mode (eye tracking, hand gestures, voice commands) in standalone scripts. As we progressed, we transitioned to a modular and object-oriented architecture. This involved:
 
