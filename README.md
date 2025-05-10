@@ -126,7 +126,7 @@ This project is intended for **educational and demonstrational purposes only**.
 
 This project, titled *Enhanced Assistive Home Automation System for People with Disabilities*, was collaboratively developed by Hassan Mroueh, Takla Sassine, Alexandre Yaacoub, and Thalia Yammine as part of their Bachelor of Science in Engineering degree at the University of Balamand.
 
-All team members contributed equally to the conception, design, implementation, testing, and documentation of the system. The work was distributed across software development, hardware integration, and user testing. Hassan Mroueh focused particularly on the programming and integration of the system’s simulation components.
+All team members contributed equally to the conception, design, implementation, testing, and documentation of the system. The work was distributed across software development, hardware integration, and user testing. Hassan Mroueh focused particularly on programming both the simulation and hardware implementation, including coding on the Raspberry Pi 4 Model B and integrating the system’s software components.
 
 This repository reflects the programming and code integration efforts completed as part of the team’s overall project.
 
