@@ -95,7 +95,7 @@ This repository contains a **simulation version** of the system. For **Raspberry
   * Servo motors (e.g., curtain control)
   
 + ### 🔧 Legacy Code:
-  From the early hardware integration phase can be found in the `hardware_transition/` folder. These scripts provide insight into the evolution of the system before final optimization.
+  From the early hardware integration phase can be found in the `hardware_transition_codes/` folder. These scripts provide insight into the evolution of the system before final optimization.
   
   As with the simulation version shown in this repository, the same structure and logic were later implemented and optimized for the Raspberry Pi hardware. The `hardware_transition/` folder contains earlier versions of this effort, including code used during the migration process.
   
