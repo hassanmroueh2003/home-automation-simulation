@@ -95,15 +95,18 @@ This repository contains a **simulation version** of the system. For **Raspberry
   * Servo motors (e.g., curtain control)
   
 + ### 🔧 Legacy Code:
-+ Transition to Hardware from the early hardware integration phase can be found in the `hardware_transition/` folder. These scripts provide insight into the evolution of the system before final optimization.
++ From the early hardware integration phase can be found in the `hardware_transition/` folder. These scripts provide insight into the evolution of the system before final optimization.
 
-During development, we initially structured each control mode (eye tracking, hand gestures, voice commands) in standalone scripts. As we progressed, we transitioned to a modular and object-oriented architecture. This involved:
+As with the simulation version shown in this repository, the same structure and logic were later implemented and optimized for the Raspberry Pi hardware. The `hardware_transition/` folder contains earlier versions of this effort, including code used during the migration process.
 
-* Creating reusable Python libraries for each control mode
-* Encapsulating logic into functions and classes
-* Centralizing system control in a single main program
+During development, each control mode (eye tracking, hand gestures, voice commands) was first implemented in standalone scripts. Over time, we refactored the project into a more modular and object-oriented structure. This included:
 
-The current version reflects this improved structure, while the contents of `hardware_transition/` document the steps taken along the way.
+* Creating reusable Python libraries for each mode
+* Encapsulating logic into well-structured functions and classes
+* Centralizing overall control into a single main program
+
+Additional logic refinements and feature enhancements were also made during this phase. Although these scripts are not the final versions deployed on the Raspberry Pi (stored locally at the University of Balamand), they provide a clear view into how the system transitioned from simulation to hardware.
+
 
 ---
 ## 🏫 Institutional Recognition
