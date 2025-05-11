@@ -46,6 +46,8 @@ You’ll be prompted to log in using face recognition. After authentication, use
 
 ---
 
+---
+
 ## 🧪 Simulation Results
 
 The system was initially tested in simulation using various inputs.
@@ -63,9 +65,9 @@ The system was initially tested in simulation using various inputs.
 
 After simulation, the system was implemented on a Raspberry Pi 4 Model B using GPIO and a connected camera.
 
-| Prototype | Hand Recognition |
-|-----------|------------------|
-| ![](hardware-implementation%20results/final-prototype.jpg) <br> *Final hardware prototype with camera and display interface.* | ![](hardware-implementation%20results/hands-recognition-implementation.jpg) <br> *Hand recognition module deployed on hardware.* |
+| Prototype | Hand Recognition | Eye Gaze Recognition |
+|-----------|------------------|-----------------------|
+| ![](hardware-implementation%20results/final-prototype.jpg) <br> *Final hardware prototype with camera and display interface.* | ![](hardware-implementation%20results/hands-recognition-implementation.jpg) <br> *Hand recognition module deployed on hardware.* | ![](hardware-implementation%20results/eyes-gaze-implementation.jpg) <br> *Gaze tracking implemented in the hardware version.* |
 
 ---
 
