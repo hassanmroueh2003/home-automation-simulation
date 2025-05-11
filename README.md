@@ -69,6 +69,11 @@ After simulation, the system was implemented on a Raspberry Pi 4 Model B using G
 |-----------|------------------|-----------------------|
 | ![](hardware-implementation%20results/final-prototype.jpg) <br> *Final hardware prototype with camera and display interface.* | ![](hardware-implementation%20results/hands-recognition-implementation.jpg) <br> *Hand recognition module deployed on hardware.* | ![](hardware-implementation%20results/eyes-gaze-implementation.jpg) <br> *Gaze tracking implemented in the hardware version.* |
 
+### 🧑‍💻 Face Recognition Module
+
+![](hardware-implementation%20results/face-recognition-implementation-on-RPI.jpg)  
+*Face recognition running on Raspberry Pi 4 Model B with integrated camera module.*
+
 ---
 
 ## 📦 Dependencies
