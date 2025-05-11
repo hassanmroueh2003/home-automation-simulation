@@ -46,6 +46,29 @@ You’ll be prompted to log in using face recognition. After authentication, use
 
 ---
 
+## 🧪 Simulation Results
+
+The system was initially tested in simulation using various inputs.
+
+| Eye Tracking (Blink & Gaze) | Hand Detection | Voice & Face Recognition |
+|-----------------------------|----------------|---------------------------|
+| ![](simulation-results/eyes-detection-blink-case.png) <br> *Blink Detection* | ![](simulation-results/Hands-detection-results.png) <br> *Hand Detection Output* | ![](simulation-results/voice-detection-example14.png) <br> *Voice Command Recognition* |
+| ![](simulation-results/eyes-gaze-center.png) <br> *Gaze Center* | | ![](simulation-results/face-detection-cases.png) <br> *Face Recognition Cases* |
+| ![](simulation-results/eyes-gaze-left.png) <br> *Gaze Left* | | |
+| ![](simulation-results/eyes-gaze-right.png) <br> *Gaze Right* | | |
+
+---
+
+## 🔌 Hardware Implementation
+
+After simulation, the system was implemented on a Raspberry Pi 4 Model B using GPIO and a connected camera.
+
+| Prototype | Hand Recognition |
+|-----------|------------------|
+| ![](hardware-implementation%20results/final-prototype.jpg) <br> *Final hardware prototype with camera and display interface.* | ![](hardware-implementation%20results/hands-recognition-implementation.jpg) <br> *Hand recognition module deployed on hardware.* |
+
+---
+
 ## 📦 Dependencies
 
 ### Install Required Python Packages
@@ -93,21 +116,7 @@ This repository contains a **simulation version** of the system. For **Raspberry
   * Relays (e.g., fan, light)
   * LEDs (visual feedback)
   * Servo motors (e.g., curtain control)
-## Hardware Implementation
 
-![Hardware Setup](hardware-implementation%20results/hardware_result1.jpg)
-*Figure 1: Complete hardware setup of the home automation system.*
-
-![Hardware Connections](hardware-implementation%20results/hardware_result2.jpg)
-*Figure 2: Detailed view of hardware connections and modules.*
-
-## Simulation Results
-
-![Simulation Interface](simulation-results/simulation_result1.jpg)
-*Figure 3: Simulation interface displaying active modules.*
-
-![Simulation Output](simulation-results/simulation_result2.jpg)
-*Figure 4: Output logs showcasing system responses during simulation.*
 
 + ### 🔧 Legacy Code:
   From the early hardware integration phase can be found in the `hardware_transition_codes/` folder. These scripts provide insight into the evolution of the system before final optimization.
