@@ -93,7 +93,22 @@ This repository contains a **simulation version** of the system. For **Raspberry
   * Relays (e.g., fan, light)
   * LEDs (visual feedback)
   * Servo motors (e.g., curtain control)
-  
+## Hardware Implementation
+
+![Hardware Setup](hardware-implementation%20results/hardware_result1.jpg)
+*Figure 1: Complete hardware setup of the home automation system.*
+
+![Hardware Connections](hardware-implementation%20results/hardware_result2.jpg)
+*Figure 2: Detailed view of hardware connections and modules.*
+
+## Simulation Results
+
+![Simulation Interface](simulation-results/simulation_result1.jpg)
+*Figure 3: Simulation interface displaying active modules.*
+
+![Simulation Output](simulation-results/simulation_result2.jpg)
+*Figure 4: Output logs showcasing system responses during simulation.*
+
 + ### 🔧 Legacy Code:
   From the early hardware integration phase can be found in the `hardware_transition_codes/` folder. These scripts provide insight into the evolution of the system before final optimization.
   
